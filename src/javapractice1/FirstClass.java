@@ -10,6 +10,18 @@ package javapractice1;
  */
 public class FirstClass {
     public static void main(String[]args){
-        System.out.print("test1");
+      //  System.out.print("test1");
+      int topScore=100;
+      if(topScore==100){
+          System.out.println("You have a top score excellent");
+      }
+      int secondTopScore=89;
+      if(secondTopScore>=89 && topScore<100){
+          System.out.println("very good job !");
+      }
+      int thirdTopScore=81;
+      if(thirdTopScore==81 || thirdTopScore<81){
+         System.out.print("great");
     }
+}
 }
