@@ -21,7 +21,9 @@ public class FirstClass {
       }
       int thirdTopScore=81;
       if(thirdTopScore==81 || thirdTopScore<81){
-         System.out.print("great");
+         System.out.println("great");
     }
+   boolean isGreat= thirdTopScore==81?true:false;
+   System.out.println(isGreat);
 }
 }
