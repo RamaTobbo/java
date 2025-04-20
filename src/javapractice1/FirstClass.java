@@ -9,5 +9,6 @@ package javapractice1;
  * @author 10User
  */
 public class FirstClass {
-    
+    public static void main(String[]args){
+    }
 }
