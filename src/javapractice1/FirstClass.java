@@ -23,7 +23,16 @@ public class FirstClass {
       if(thirdTopScore==81 || thirdTopScore<81){
          System.out.println("great");
     }
-   boolean isGreat= thirdTopScore==81?true:false;
+   String isGreat= thirdTopScore==81?"true":"false";
    System.out.println(isGreat);
+   double value1=20;
+   double value2=80;
+   double res=(value1 + value2)*100;
+  double reminder= res%40;
+   boolean isReminderEqual0= reminder==0?true:false;
+   System.out.println(isReminderEqual0);
+   if(!isReminderEqual0)
+       System.out.print("got some remainder");
+   
 }
 }
